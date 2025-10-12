@@ -16,7 +16,6 @@ title: unity
 - Cinemachine
 - Timeline Animator Playable
 - ScriptableObject 「资源」概念
-- 程序化地形生成、植被生成
 - 程序化动画 (其实是3D动画的底层基础)
   - 骨骼绑定
   - 正向运动学 FK
@@ -30,6 +29,8 @@ title: unity
   - 光栅化
 - Shader URP
 - DrawCall 概念
+
+- 程序化内容生成 Procedural Content Generation （感兴趣看看）
 
 - Mirror 多人游戏框架 (看不看都行吧，并不是必要，只是觉得好用放在这里)
   - ClientRpc Command TargetRpc
