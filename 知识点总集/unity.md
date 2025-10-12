@@ -13,6 +13,8 @@ title: unity
 ## L2 进阶级
 
 - Gizmos
+- Cinemachine
+- Timeline Animator Playable
 - ScriptableObject 「资源」概念
 - 程序化地形生成、植被生成
 - 程序化动画 (其实是3D动画的底层基础)
@@ -34,6 +36,7 @@ title: unity
   - NetworkManager
   - NetworkBehaviour
   - 其他
+- Animancer
 
 ## L3 原理级 / 深层级
 - IL2CPP 编译加速
