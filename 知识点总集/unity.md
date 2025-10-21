@@ -13,6 +13,7 @@ title: unity
 ## L2 进阶级
 
 - Gizmos
+- AssetsBundle
 - Cinemachine
 - Timeline Animator Playable
 - ScriptableObject 「资源」概念
