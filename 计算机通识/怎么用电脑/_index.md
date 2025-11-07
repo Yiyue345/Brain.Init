@@ -1,5 +1,6 @@
 ---
 title: 怎么用电脑——序言
+bookCollapseSection: true
 ---
 ## 迈出第一步！
 
