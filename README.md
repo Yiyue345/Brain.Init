@@ -8,6 +8,7 @@ bookHidden: true
 - [🕊️子的网站](https://book.whispery.top/)
 - [长期素食的网站](https://book.xn--7br062ccfl55p.top/)
 ## 目录
+- [网站链接](#网站链接)
 - [目录](#目录)
 - [📄这是什么？项目简介](#这是什么项目简介)
 - [🛠️关于提问](#️关于提问)
@@ -87,4 +88,4 @@ bookHidden: true
 ---
 
 ## 🔚最后
-- 最终解释权归[此仓库](https://github.com/Yiyue345/Brain.Init/tree/main)所有者及 Collaborator 所有
+- 最终解释权归 [此仓库](https://github.com/Yiyue345/Brain.Init/tree/main) 所有者及 Collaborator 所有
