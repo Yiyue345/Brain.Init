@@ -1,12 +1,14 @@
 # Git 安装 & GitHub 基本用法
+
 ---
+
 > [!INFO]
 > 这篇文章旨在介绍 Git 与 GitHub 的使用，但由于内容与排版较为混乱，将来可能会发生大量更改或完全重写
-> 
 
 ## 1.进不去 GitHub？
 
 由于某些特殊的原因 ~~（指 GFW）~~ ，我们直接连接 GitHub 大概率是要看运气的。如果需要稳定访问，可以使用 [Steam++](https://steampp.net/) 或其他工具进行加速，亦可前往科协连接科协 WiFi 使用
+
 ## 2.注册 GitHub
 
 在学习 git 之前，我们先注册一个 GitHub 账号
@@ -78,7 +80,7 @@ https://git-scm.com/downloads
 
 ![image-20250517122124404](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122124404.png)
 
-​																				![image-20250517122144975](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122144975.png)
+​                                                                                ![image-20250517122144975](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122144975.png)
 
 之后就会进行下载，下载完成后打开 .exe 安装包，安装时**全部选择默认选项**即可
 
@@ -101,12 +103,11 @@ https://git-scm.com/downloads
 ![image-20250517122701485](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122701485.png)
 
 如果没找到，**点击显示更多选项**，在里面找到 **“在终端中打开”**
-点击后，会有一个控制台窗口，**git 的指令都会在这个窗口中进行**		
+点击后，会有一个控制台窗口，**git 的指令都会在这个窗口中进行**        
 
 ![image-20250517122815793](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122815793.png)
 
 首先，我们对文件夹进行初始化。输入`git init`，并回车
-
 
 ![image-20250517122902570](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122902570.png)
 
@@ -194,7 +195,6 @@ origin 后面的就是你的仓库地址，如下图演示
 
 完成！现在你就可以返回到你的仓库中，找到你刚刚 Fork 的项目了！！
 
-
 ![image-20250517130652064](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517130652064.png)
 
 ![image-20250517130702830](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517130702830.png)
@@ -225,7 +225,6 @@ origin 后面的就是你的仓库地址，如下图演示
 ![image-20250517131950789](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517131950789.png)
 
 **输入** `git remote add upstream 原始仓库地址`
-
 
 ![image-20250517132259072](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517132259072.png)
 
@@ -262,15 +261,14 @@ origin 后面的就是你的仓库地址，如下图演示
 
 我们前往自己的分支看一下
 
-
-​	![image-20250517134146739](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134146739.png)
+​    ![image-20250517134146739](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134146739.png)
 
 一切正常！我们刚写的代码也成功的上传到了分支当中！
 
 **如果你的分支功能已经稳定，想要更新自己仓库中的 main 了，就要在本地切回 main 分支，进行合并**
 输入`git checkout main`，切回 main 分支
 
-​					![	](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134336626.png)									
+​                    ![    ](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134336626.png)                                    
 我们成功的切换到了 main 分支上！
 
 接下来要合并 lny 分支和 main 分支
@@ -287,7 +285,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 **输入**`git push origin main`
 
-​					![image-20250517134558998](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134558998.png)
+​                    ![image-20250517134558998](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134558998.png)
 成功了！让我们检查 GitHub 的 main 分支是否更新
 
 ![image-20250517134637859](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134637859.png)
@@ -304,7 +302,6 @@ origin 后面的就是你的仓库地址，如下图演示
 
 点击**new pull request**
 
-
 ![image-20250517134901795](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134901795.png)
 
 接下来就可以看到我们的提交信息，以及是否和源库中有冲突。如果开发分支与上游主分支有冲突，我们需要手动去解决冲突，这个我们后面再讲。目前我们的代码没有任何的冲突，就可以去 **Create pull request** 了
@@ -319,7 +316,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 ## 6.超级注意事项！！！
 
-#### 	**无论什么时候，在你写代码之前，一定要及时拉取上游主分支的一切改动，同步上游主分支代码到本地，具体操作如下**
+#### **无论什么时候，在你写代码之前，一定要及时拉取上游主分支的一切改动，同步上游主分支代码到本地，具体操作如下**
 
 ##### 1.切换到本地main分支
 
@@ -351,7 +348,6 @@ origin 后面的就是你的仓库地址，如下图演示
 
 `git push origin feature/lny`
 
-
 ## 7.关于规范
 
 #### 1.命名规范
@@ -375,3 +371,5 @@ docs: 更新文档
 #### 3.Issue的使用
 
 可以用 Issue 来记录 bug ，功能需求等
+
+
