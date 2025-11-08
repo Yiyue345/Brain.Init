@@ -1,5 +1,7 @@
 ---
 title: 大杂烩
+bookCollapseSection: true
+
 ---
 
 那些没有分类的笔记的最后去处。
