@@ -76,6 +76,8 @@ class PageA extend StatelessWidget {
 
 ## 不复杂的进阶用法
 
+### .obs 是啥
+
 # 依赖管理
 
 # 路由管理
